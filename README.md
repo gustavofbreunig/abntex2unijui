@@ -33,6 +33,7 @@ Obs: O arquivo exemplo.tex já possui a estrutura básica de um trabalho com:
 - Desenvolvimento
 - Conclusão
 - Referências (linkado ao arquivo bibliografia.bib)
+- Anexos
 
 Você pode utilizar este arquivo como base para o desenvolvimento do seu trabalho.
 
