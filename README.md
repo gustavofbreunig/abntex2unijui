@@ -2,7 +2,7 @@
 
 Pacote de customização do abntex2 para atender as normas ABNT específicas da Universidade Regional do Noroeste do Estado do Rio Grande do Sul (UNIJUI).
 
-O documento oficial pode ser acessado [através da biblioteca digital](http://bibliodigital.unijui.edu.br:8080/xmlui/handle/123456789/2905) (ou (link alternativo)[https://github.com/gustavofbreunig/abntex2unijui/files/1081810/TRABALHOS.ACADEMICOS.85-2016-UNIJUI.pdf]) e serve como base em trabalhos, teses e dissertações da universidade.
+O documento oficial pode ser acessado [através da biblioteca digital](http://bibliodigital.unijui.edu.br:8080/xmlui/handle/123456789/2905) (ou [link alternativo](https://github.com/gustavofbreunig/abntex2unijui/files/1081810/TRABALHOS.ACADEMICOS.85-2016-UNIJUI.pdf) ) e serve como base em trabalhos, teses e dissertações da universidade.
 
 ## Requisitos
 
