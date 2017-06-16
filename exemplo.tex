@@ -42,7 +42,7 @@
 % ---
 % Informações de dados para capa, folha de rosto e folha de aprovação
 % ---
-\titulo{Título do trabalho}
+\titulo{Trabalho exemplo que obedece às normas de formatação ABNT da UNIJUI}
 \autor{Nome do Autor}
 \local{Santa Rosa, Brasil}
 \data{\today}
@@ -306,13 +306,44 @@ Praesent scelerisque elit a interdum aliquam. Nullam varius ex eget elementum fe
 
 \section{Seção Secundária}
 
-Exemplo de citação \cite{turing}.
+Exemplo de citação \cite{turing}, referenciando o anexo \ref{turing_article}.
+
+Exemplo de figura \ref{logo_unijui}:
+
+\begin{figure}[h!]
+	\centering
+	\caption{\label{logo_unijui}Logo}
+	\includegraphics[scale=0.8]{imagens/logo-unijui-horizontal.png}
+	\legend{Fonte: Unijui.}
+\end{figure}
+\FloatBarrier	
 
 \subsection{Seção terciária}
 
 Duis rhoncus, ligula bibendum ullamcorper pretium, neque ligula iaculis mauris, eget suscipit libero nunc sed mi. Aenean volutpat eu dolor hendrerit rhoncus. Vivamus in fringilla elit. Proin tincidunt molestie lacinia. Vivamus nunc felis, rutrum in neque id, congue ultricies ex. Ut eget lectus pharetra, lobortis purus sodales, gravida massa. Proin et interdum ipsum. Nunc non nibh feugiat, accumsan nisl vitae, iaculis leo. Nulla sodales porta egestas. Praesent commodo scelerisque risus eget porta. Suspendisse ut augue sed sapien auctor dictum. Morbi sodales euismod risus, id tincidunt lectus malesuada quis. Etiam volutpat neque id velit hendrerit, non tincidunt eros fringilla. Nam erat sem, imperdiet nec facilisis nec, vulputate at leo. Donec lorem urna, iaculis at mollis non, varius eu eros.
 
-Exemplo de citação \cite{neumann}.
+Exemplo de citação \cite{neumann}. Um exemplo de tabela pode ser visto na tabela \ref{tabela_peso}.
+
+\begin{table}[htb]
+	\IBGEtab{%
+		\caption{Relação peso x altura}%
+		\label{tabela_peso}
+	}{%
+		\begin{tabular}{ccc}
+			\toprule
+			\textbf{Peso X} & \textbf{Estatura Y} & \textbf{Idade Z}  \\
+			\midrule
+			35 & 128 & 13 \\
+			39 & 125 & 14 \\
+			41 & 123 & 15 \\
+			33 & 120 & 12 \\
+			\bottomrule
+		\end{tabular}%
+	}{%
+		\fonte{O autor.}%
+	}
+\end{table}
+\FloatBarrier
 
 % ---
 % Finaliza a parte no bookmark do PDF
@@ -340,12 +371,20 @@ Curabitur et lacus a risus eleifend rutrum. Sed lacinia consequat ex eu molestie
 % ---
 % Inicia os anexos
 % ---
-%\begin{anexosenv}
+
+\begin{anexosenv}
 	
-	% Imprime uma página indicando o início dos anexos
-%	\partanexos
+	\partanexos
 	
-%\end{anexosenv}
+	\chapter{Turing Article}
+	\label{turing_article}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[page=1,trim={2.5cm 0 2cm 2cm},clip,scale=0.8]{anexos/turing.pdf}
+	\end{figure}
+	\FloatBarrier
+	
+\end{anexosenv}
 
 
 \end{document}
